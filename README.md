@@ -1,20 +1,26 @@
-# Tachyons webpack boilerplate with browser-sync
+### [Tachyons Templates](https://www.tachyonstemplates.com/)
 
-This is a basic webpack boilerplate to be used with Tachyons. You can write your javascript in `src/app.js`m add html to `index.html` and
-add custom css to `css/index.css`.
+[Tachyons Consultr](https://www.tachyonstemplates.com/template-overviews/tachyons-consultr/?from=github) is a landing page theme for web apps utilizing [Tachyons](http://tachyons.io/)
 
-## Installation
+## Getting Started
 
-    git clone git@github.com:tachyons-css/tachyons-webpack.git
-    cd tachyons-webpack
-    npm install
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Tachyons Templates](https://www.tachyonstemplates.com/template-overviews/tachyons-consultr/?from=github)
+* Clone the repo: `git clone https://github.com/blairanderson/tachyons-consultant.git`
 
-## Development mode
+## Bugs and Issues
 
-Running `npm run dev` will run the __webpack-dev-server__ on port 3000. You can then develop and webpack will watch for file changes and
-rebuild. BrowserSync will refresh the page.
+Have a bug or an issue with this template? [Open a new issue](/issues) here on GitHub or leave a comment on the [template overview page at Tachyons Templates](https://www.tachyonstemplates.com/template-overviews/tachyons-consultr/?from=github).
 
-## Build
+## Creator
 
-Running `npm run build` will create a `dist` folder with the `index.html`, `main.js`, `index.css` and `tachyons.css`
-files for you to distribute or deploy
+Tachyons Templates is maintained by **[Blair Anderson](http://www.blairanderson.co/)**, of [Tachyons Templates](https://www.tachyonstemplates.com/).
+
+* https://twitter.com/blairanderson
+* https://github.com/blairanderson
+
+Tachyons Templates is based on the [Tachyons](http://tachyons.io/) framework.
+
+## Copyright and License
+
+Copyright 2017 Tachyons Templates LLC. Code released under the [MIT](https://github.com/blairanderson/tachyons-consultant/blob/master/LICENSE) license.

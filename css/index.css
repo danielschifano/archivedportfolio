@@ -1,7 +1,7 @@
 /* Index */
 
 /* Tachyons */
-@import 'tachyons/src/tachyons';
+@import '../../../tachyons/src/tachyons';
 
 /* Global JetBlue Utilities */
 @import './colors';
