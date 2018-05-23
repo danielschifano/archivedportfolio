@@ -1,0 +1,6 @@
+@import './variables.css';
+
+/* Colors */
+.primary-blue {
+  color: var(primary-blue);
+}
