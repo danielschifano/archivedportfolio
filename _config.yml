@@ -1,63 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# This will be the first part of the title tag for your site <title> site.name + page.title </title>
+name: "JKL"
+# Populates the meta description for the site. Should be under 150 characters for best SEO purposes.
+descripiton: "Light-weight scaffolding for a Jekyll project with Tachyons"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Free Consulting Company Website - Tachyons Templates Theme
-nav-title: Tachyons Templates
-header-headline: Consultant - Showcase your consulting agency/company!
-header-subheadline: "Tachyons Templates is a great way to get started building websites using the tachyons css framework. Simply download and launch your site within minutes."
-email: feedback@tachyonstemplates.com
-telephone: 123-456-7899
-download-link: "http://www.tachyonstemplates.com/template-overviews/tachyons-consultant/?from=live-preview"
-description: > # a simple web app launch site built using tachyons
-baseurl: "/tachyons-consultant" # the subpath of your site, e.g. /blog
-url: "http://www.blairanderson.co" # the base hostname & protocol for your site, e.g. http://example.com
+# Owner (organization or individual) of site content
+author: "mrmrs"
 
-social-icons:
- - title: Facebook
-   url: https://facebook.com/example
-   class: facebook
- - title: Twitter
-   url: https://twitter.com/blairanderson
-   class: twitter
+#url: http://
+url: "http://localhost:4000"
 
-photos:
-  - link: "https://geo.itunes.apple.com/us/album/blonde/id1146195596?at=1l3vqFJ&mt=1&app=music"
-    image: "http://is4.mzstatic.com/image/thumb/Music62/v4/93/8f/75/938f7536-0188-f9ba-4585-0a77ceaebf0a/source/400x40000bb.png"
-    title: "Frank Ocean Blonde Album Cover"
-  - link: "https://geo.itunes.apple.com/us/album/jeffery/id1146718343?at=1l3vqFJ&mt=1&app=music"
-    image: "http://is1.mzstatic.com/image/thumb/Music71/v4/c8/2d/b1/c82db1cd-9dc5-d7cb-2a34-735cf47bb809/source/400x40000bb.png"
-    title: "Young Thug - Jeffery Album Cover"
-  - link: "https://geo.itunes.apple.com/us/album/untitled-unmastered./id1089846273?at=1l3vqFJ&mt=1&app=music"
-    image: "http://is5.mzstatic.com/image/thumb/Music49/v4/1b/36/43/1b3643c6-e6a3-41bc-7f6d-7c2b64b5d60b/source/400x40000bb.png"
-    title: "Kendrick Lamar untitled unmastered. Album Cover"
-  - link: "https://geo.itunes.apple.com/us/album/99.9/id1092026376?at=1l3vqFJ&mt=1&app=music"
-    image: "http://is4.mzstatic.com/image/thumb/Music49/v4/e9/4c/2d/e94c2d5f-bdb0-c565-4cc2-f9dfcf7f0b87/source/400x40000bb.png"
-    title: "Kaytranada 99%"
-  - link: "https://geo.itunes.apple.com/us/album/aa/id1067924003?at=1l3vqFJ&mt=1&app=music"
-    image: "http://is3.mzstatic.com/image/thumb/Music49/v4/b6/b0/a1/b6b0a1dd-998d-9786-ca2f-87470be15250/source/400x40000bb.png"
-    title: "Baauer Aa - Album Cover"
-  - link: "https://geo.itunes.apple.com/us/album/99-cents/id1054734475?at=1l3vqFJ&mt=1&app=music"
-    image: "http://is3.mzstatic.com/image/thumb/Music62/v4/fa/ae/a6/faaea65f-0819-bb5d-afaa-4f5e84015204/source/400x40000bb.png"
-    title: "Santigold 99 cents - Album cover"
+# Your UA tracking number (i.e 35858753-1) for Google Analytics.
+# If you comment this out, or don't fill out this parameter - Google analytics won't be included.
+googleID:
 
+# Pagination variable for how many posts to show in a list
+paginate: 5
 
-# Build settings
-markdown: kramdown
-gems:
-  - jekyll-feed
+# Style of permalinks
+permalink: pretty
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# Variable format options for URL styles below
+# pretty                                          => /2009/04/29/slap-chop/index.html
+# /:month-month:day-:year/:title.html/            => 04-29-2009/slap-chop.html
+# /blog/:yearr/:month/:day/:title                 => /blog/2009/04/29/slap-chop/index.html
+
+# UnComment once you have pygments installed. Used for code syntax highlighting.
+#pygments: true
+
+exclude: [Rakefile]
