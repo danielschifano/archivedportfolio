@@ -2,28 +2,63 @@
 layout: default
 ---
 
-<section class="center mw7">
-  <article>
-    {% for post in site.posts limit: 1 %}
-       <h1>{{ post.title }}</h1>
-      {{ post.content }}
-    {% endfor %}
-  </article>
-  <section>
-    <article>
-      <ul>
-        {% for post in paginator.posts %}
-          <li>
-            <a href="{{ post.url }}" title="{{post.title}}">
-              <date datetime="{{post.date}}">
-                {{ post.date | date_to_long_string }}
-              </date>
-              {{ post.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-      <p>...</a></p>
-    </article>
-  </section>
-</section>
+<article class="w-100 w-60-l w-75-m ph4 ph0-ns center mt5">
+  <h1 class="f1 lh-title pt5 pb3 ma0">
+    I help clients and teams build products with purpose. Product Designer at Rangle.io.
+  </h1>
+  <h3 class="f2 fw6 pb5 ma0">
+    Previously Tealbook, JetBlue, Discount, Roche, The Vitamin Shoppe, ThyssenKrupp Elevator.
+  </h3>
+</article>
+
+<hr class="w-100">
+
+<article class="w-100 w-60-l w-75-m ph4 ph0-ns center mv5">
+  <p class="ma0 f4 fw5 pb5">Selected Work</p>
+  <div class="flex flex-row-l flex-column w-100 mb2 pb2">
+    <!-- Tealbook -->
+    <a
+      href="{{site.url}}/work/tealbook"
+      style="height:580px; background-image: url(img/work/tealbook-front.jpg);"
+      class="link dt cover bg-center w-50-l w-100 dim mr2-l mb2 mb0-l">
+      <span class="white dtc v-btm w-100 h-100 child pa4">
+        <p class="ma0 f6 ttu">Tealbook - Web App</p>
+        <p class="ma0 f3 pt3">Understanding supplier intelligence</p>
+      </span>
+    </a>
+    <!-- Tealbook -->
+    <a
+      href="{{site.url}}/work/vitamin-shoppe"
+      style="height:580px; background-image: url(img/work/vitaminshoppe-front.jpg);"
+      class="link dt cover bg-center w-50-l w-100 dim ml2-l mt2 mt0-l">
+      <span class="black dtc v-btm w-100 h-100 child pa4">
+        <p class="ma0 f6 ttu">Vitamin Shoppe - Product Strategy</p>
+        <p class="ma0 f3 pt3">Optimizing checkout for a better experience</p>
+      </span>
+    </a>
+  </div>
+  <div class="flex flex-row-l flex-column w-100">
+    <!-- Tealbook -->
+    <a
+      href="{{site.url}}/work/arcade-city"
+      style="height:580px; background-image: url(img/work/arcade-city-front.jpeg);"
+      class="link dt cover bg-center w-50-l w-100 dim mr2-l mb2 mb0-l">
+      <span class="white dtc v-btm w-100 h-100 child pa4">
+        <p class="ma0 f6 ttu">Arcade City - Mobile App</p>
+        <p class="ma0 f3 pt3">Ridesharing for the people</p>
+      </span>
+    </a>
+    <!-- Tealbook -->
+    <a
+      href="{{site.url}}/work/thyssenkrupp-elevator"
+      style="height:580px; background-image: url(img/work/tke-front.jpg);"
+      class="link dt cover bg-center w-50-l w-100 dim ml2-l mt2 mt0-l">
+      <span class="black dtc v-btm w-100 h-100 child pa4">
+        <p class="ma0 f6 ttu">ThyssenKrupp Elevator - Mobile App</p>
+        <p class="ma0 f3 pt3">Helping elevator mechanics with their day to day work</p>
+      </span>
+    </a>
+  </div>
+</article>
+
+<hr class="w-100">
