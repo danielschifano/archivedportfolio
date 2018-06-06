@@ -84,3 +84,7 @@ body {
 .hover-grow:hover  .hover-grow-image {
   transform: scale(1.05);
 }
+
+.lh-paragraph {
+  line-height: 2rem
+}
