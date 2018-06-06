@@ -10,6 +10,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://localhost:4000/css/tachyons.css">
+	<link rel="stylesheet" href="http://localhost:4000/css/i.css">
 </head>
 
   <body class="center">
@@ -31,66 +32,86 @@
   </nav>
 </div>
 
-    <article class="w-100 w-60-l w-75-m ph4 ph0-ns center mt5">
-  <h1 class="f1 lh-title pt5 pb3 ma0">
-    I help clients and teams build products with purpose. Product Designer at Rangle.io.
+    <!-- Intro -->
+<article class="w-100 w-60-l w-75-m ph4 ph0-ns center mt5 pv5">
+  <h1 class="f2 lh-title pt5 ma0 fw6 hover-blue-main">
+    I help clients and teams build products with purpose.
+    <br>
+    Product Designer at
+    <a href="https://rangle.io/"
+      target="_blank"
+      class="link hover-blue black">
+      Rangle.io.</a>
   </h1>
-  <h3 class="f2 fw6 pb5 ma0">
-    Previously Tealbook, JetBlue, Discount, Roche, The Vitamin Shoppe, ThyssenKrupp Elevator.
-  </h3>
 </article>
 
-<hr class="w-100">
-
+<!-- Selected Work -->
 <article class="w-100 w-60-l w-75-m ph4 ph0-ns center mv5">
-  <p class="ma0 f4 fw5 pb5">Selected Work</p>
-  <div class="flex flex-row-l flex-column w-100 mb2 pb2">
-    <!-- Tealbook -->
-    <a
-      href="http://localhost:4000/work/tealbook"
-      style="height:580px; background-image: url(img/work/tealbook-front.jpg);"
-      class="link dt cover bg-center w-50-l w-100 dim mr2-l mb2 mb0-l">
-      <span class="white dtc v-btm w-100 h-100 child pa4">
-        <p class="ma0 f6 ttu">Tealbook - Web App</p>
-        <p class="ma0 f3 pt3">Creating long lasting business relationships through collaboration</p>
-      </span>
-    </a>
-    <!-- Tealbook -->
-    <a
-      href="http://localhost:4000/work/vitamin-shoppe"
-      style="height:580px; background-image: url(img/work/vitaminshoppe-front.jpg);"
-      class="link dt cover bg-center w-50-l w-100 dim ml2-l mt2 mt0-l">
-      <span class="black dtc v-btm w-100 h-100 child pa4">
-        <p class="ma0 f6 ttu">Vitamin Shoppe - Web App</p>
-        <p class="ma0 f3 pt3">Using stakeholder alignment to drive change</p>
-      </span>
-    </a>
-  </div>
-  <div class="flex flex-row-l flex-column w-100">
-    <!-- Tealbook -->
-    <a
-      href="http://localhost:4000/work/arcade-city"
-      style="height:580px; background-image: url(img/work/arcade-city-front.jpeg);"
-      class="link dt cover bg-center w-50-l w-100 dim mr2-l mb2 mb0-l">
-      <span class="white dtc v-btm w-100 h-100 child pa4">
-        <p class="ma0 f6 ttu">Arcade City - Mobile App</p>
-        <p class="ma0 f3 pt3">Ridesharing for the people</p>
-      </span>
-    </a>
-    <!-- Tealbook -->
-    <a
-      href="http://localhost:4000/work/thyssenkrupp-elevator"
-      style="height:580px; background-image: url(img/work/tke-front.jpg);"
-      class="link dt cover bg-center w-50-l w-100 dim ml2-l mt2 mt0-l">
-      <span class="black dtc v-btm w-100 h-100 child pa4">
-        <p class="ma0 f6 ttu">ThyssenKrupp Elevator - Mobile App</p>
-        <p class="ma0 f3 pt3">Building confidence in our userbase through research</p>
-      </span>
-    </a>
-  </div>
-</article>
+  <!-- Tealbook -->
+  <a href="http://localhost:4000/work/tealbook"
+    class="link hover-blue black flex hover-grow">
+    <div class="w-30">
+      <p class="ma0 f2 lh-title fw6">Creating long lasting business relationships through collaboration</p>
+      <p class="ma0 f7 fw7 ttu pt3">Tealbook</p>
+      <p class="ma0 f7 pt1">2018</p>
+    </div>
+    <div class="w-70 ml4 pa4 bg-near-white">
+      <div class="hover-grow-image">
+        <img src="img/work/tealbook-preview.png"
+          class="link cover bg-center dt center w-100 h-auto shadow-4">
+        </div>
+    </div>
+  </a>
 
-<hr class="w-100">
+  <!-- Vitamin Shoppe -->
+  <a href="http://localhost:4000/work/vitamin-shoppe"
+    class="link hover-blue black flex hover-grow mt5">
+    <div class="w-30">
+      <p class="ma0 f2 lh-title fw6">Using stakeholder alignment to drive change</p>
+      <p class="ma0 f7 fw7 ttu pt3">Vitamin Shoppe</p>
+      <p class="ma0 f7 pt1">2017</p>
+    </div>
+    <div class="w-70 ml4 bg-near-white overflow-hidden">
+      <div class="hover-grow-image">
+        <img src="img/work/vitaminshoppe-preview.png"
+          class="link cover bg-center dt center w-100 h-auto shadow-4">
+        </div>
+    </div>
+  </a>
+
+  <!-- Arcade City -->
+  <a href="http://localhost:4000/work/arcade-city"
+    class="link hover-blue black flex hover-grow mt5">
+    <div class="w-30">
+      <p class="ma0 f2 lh-title fw6">Ridesharing for the people</p>
+      <p class="ma0 f7 fw7 ttu pt3">Arcade City</p>
+      <p class="ma0 f7 pt1">2016</p>
+    </div>
+    <div class="w-70 ml4 bg-near-white overflow-hidden">
+      <div class="hover-grow-image">
+        <img src="img/work/arcade-city-preview.png"
+          class="link cover bg-center dt center w-100 h-auto">
+        </div>
+    </div>
+  </a>
+
+  <!-- TKE -->
+  <a href="http://localhost:4000/work/thyssenkrupp-elevator"
+    class="link hover-blue black flex hover-grow mt5">
+    <div class="w-30">
+      <p class="ma0 f2 lh-title fw6">Building confidence in our userbase through research</p>
+      <p class="ma0 f7 fw7 ttu pt3">Thyssenkrupp Elevator</p>
+      <p class="ma0 f7 pt1">2016</p>
+    </div>
+    <div class="w-70 ml4 pa4 bg-near-white">
+      <div class="hover-grow-image">
+        <img src="img/work/tke-preview.png"
+          class="link cover bg-center dt center w-100 h-auto shadow-4">
+        </div>
+    </div>
+  </a>
+
+</article>
 
     <footer class="dt w-100 w-60-l w-75-m ph4 ph0-ns center mv5 relative">
   <p class="ma0 f5 dtc tl v-mid">
