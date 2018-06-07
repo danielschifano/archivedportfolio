@@ -88,3 +88,10 @@ body {
 .lh-paragraph {
   line-height: 2rem
 }
+
+
+@media screen and (min-width: 60em) {
+  .f2-l {
+    font-size: 1.9rem;
+  }
+}
